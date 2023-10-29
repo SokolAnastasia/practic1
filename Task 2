@@ -1,0 +1,15 @@
+a = 5
+b = 80
+
+sum_of_squares = 0
+count = 0
+
+for i in range(a, b + 1):
+    sum_of_squares += i**2
+    count += 1
+
+if count > 0:
+    average = sum_of_squares / count
+    print("Середнє арифметичне квадратів від", a, "до", b, "дорівнює:", average)
+else:
+    print("Діапазон чисел порожній.")
